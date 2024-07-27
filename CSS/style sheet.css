@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&display=swap');
+
+a{
+    text-decoration: none;
+}
+
+
+.navbar-brand ,.cc ,.END {
+  font-family: "Kalnia Glaze", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    font-size: 30px;
+}
+.carousel-item img{
+    height: 100vh;
+}
+.carousel-caption{
+    background-color:rgb(8, 6, 6,0.3);
+    font-size: 30px;
+    
+    
+   
+}
+.card{
+    height: 450px;
+}
+.card1,.card ,.eng{
+    box-shadow: 0px 2px 20px 1px rgb(79, 88, 89);
+}
+.photo{
+    background-image: url(https://img.freepik.com/free-photo/copy-space-shells-leaves_23-2148501673.jpg?t=st=1722109036~exp=1722112636~hmac=53cb45f3cb039e6551d9e6891b5a1964a5ef7dda93206a0692dd41cf918f43b9&w=1060);
+    background-attachment: fixed ;
+    width: 100;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card{
+    position: relative;
+}
+.card::after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+left: 0;
+    background-color:rgb(19, 119, 129) ;
+    transition: 0.9s;
+    opacity: 0;
+}
+.card::before{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    bottom: 0;
+right: 0;
+    background-color:rgb(19, 119, 129);
+    transition: 0.9s;
+    opacity: 0;
+}
+.card:hover::after{
+    opacity: 0.3;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.card:hover::before{
+    opacity: 0.3;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.eng4{
+    background-image: url(https://img.freepik.com/free-photo/restaurant-complex-seashore-rocks_169016-12915.jpg?t=st=1722104112~exp=1722107712~hmac=763d01600af55c73db211acc467defc3d3b0868ad1b8afc4622d2b1a72d47330&);
+}
+.eng2{
+    background-image: url(https://img.freepik.com/free-photo/sandy-beach-calm-sea_657883-138.jpg?t=st=1722106357~exp=1722109957~hmac=9369a68b44f52d443dd17e22f05a229d3910dcc04023f20ea4c2dd4f8d3c68ac&w=900);
+}
+.eng3{
+    background-image: url(https://qph.cf2.quoracdn.net/main-qimg-eeeab087fc9f54d6252a3b1722222197);
+}
+.eng{
+    width: 350px;
+    height: 460px;
+    background-repeat: no-repeat;
+    background-size: cover;
+     
+  
+      position: relative;
+  
+}
+.overr{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(148, 178, 183, 0.6) ;
+   position: absolute;
+}
+.overr:hover{
+    background-color: rgba(61, 177, 188, 0.2);
+}
+.eng:hover{
+
+  transform: scale(0.88,0.88);
+  transition: 1.1s;
+}
+
+
+
+
+.section{
+   
+    box-shadow: 6px -10px 60px 1px rgb(151, 200, 236);
+    border-radius: 1px;
+  height: 300px;
+}
+.photo1{
+    height: 300px;
+    width: 300px;
+    transform:skew(-3deg);
+   
+  margin-right:-25px !important; 
+    
+}
+.bpic{
+  background-color: rgb(237, 236, 247);
+    width: 270px;
+    height: 200px;
+    margin-left: 200px;
+    box-shadow: 0 0 20px 2px rgb(109, 109, 109);
+}
+
+.pic{
+    width: 100px;
+    border-radius: 10%;
+    margin: auto;
+  
+   box-shadow: 0 0 20px 2px black;
+}
+.bpic:hover{
+    box-shadow: 0 0 20px 2px rgb(20, 21, 21);
+    transform: scale(1.02,1.02);
+    transition: 0.7s;
+}
+
+.card:hover{
+    box-shadow: 0 0 20px 2px rgb(20, 21, 21);
+    transform: scale(1.02,1.02);
+    transition: 0.7s;
+}
+.icon{
+    color: rgb(22, 159, 209);
+    font-size: 100px;
+}
+.link{
+    color: rgb(1, 1, 1);
+}
+
+
+.llogo{
+    box-shadow: 0px 0px 20px 2px lightblue;
+}
+.best{
+    font-size: 20px;
+    text-shadow: 0px 1px 1px rgb(98, 145, 138);
+    color: rgb(0, 0, 0);
+}
+
+

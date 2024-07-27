@@ -1,0 +1,591 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="CSS/style sheet.css">
+<link rel="stylesheet" href="CSS/all.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm bg-light fixed-top" style="opacity:0.8;">
+
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="https://img.freepik.com/premium-vector/hospitality-tourism-logo-concept_958800-81967.jpg?w=740" alt="Avatar Logo" style="width:40px;" class="rounded-pill">
+        </a>
+        <a class="navbar-brand"  href="#" >F-COMPANY </a>
+        <button class="navbar-toggler border-primary" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto ">
+              <li class="nav-item active">
+                <a class="nav-link " href="javascript:void(0)">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">Team</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Trips
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Cairo</a></li>
+                  <li><a class="dropdown-item" href="#">Alex</a></li>
+                  <li><a class="dropdown-item" href="#">Sharm El Sheikh</a></li>
+                  <li><a class="dropdown-item" href="#">LUXOR</a></li>
+                  <li><a class="dropdown-item" href="#">Aswan</a></li>
+                  <li><a class="dropdown-item" href="#">Dahab</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">More..</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">About</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="text" placeholder="Search">
+              <button class="btn btn-primary" type="button" >Search</button>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal" style="margin-left: 20px;">
+                login
+              </button>
+            </form>
+</div>
+</div>
+         </nav>
+          <!-- The Modal -->
+          <div class="modal " id="myModal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+          
+                <!-- Modal Header -->
+                <div class="modal-header bg-primary"style="background-color:rgb(55, 183, 195);" >
+                  <h2 class="modal-title text-white " >Login</h2>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+          
+                <!-- Modal body -->
+                <form action="/action_page.php ">
+                  <div class="mb-1 mt-3 p-3">
+                    <label for="email" class="form-label">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                    <small class="text-dark ms-2 ">we will never share your email with other</small>
+                  </div>
+                  <div class="mb-1 p-3 ">
+                    <label for="pwd" class="form-label">Password:</label>
+                    <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                  </div>
+                  <div class="form-check mb-3">
+                    <label class="form-check-label p-2">
+                      <input class="form-check-input p-2" type="checkbox" name="remember"> Remember me
+                    </label>
+                  </div>
+                  
+                  <!-- Modal footer with submit button inside the form -->
+                  <div class="modal-footer">
+                    <button type="submit  " class="btn btn-primary " >Submit</button>
+
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <!------------------------------------------------------------------------>
+         
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://img.freepik.com/premium-photo/seagull-flies-by-cairo-downtown-near-gezira-island-egypt-africa_400112-996.jpg?w=1060" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block">
+                  <h1>cairo </h1>
+                  <p >The capital of Egypt.</p>
+                  <button class="btn btn-primary btn-lg"> visit us </button>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://img.youm7.com/ArticleImgs/2020/12/20/138036-%D8%A7%D8%B3%D8%AA%D8%B1%D8%A7%D8%AD%D8%A7%D8%AA-%D9%85%D8%B7%D9%84%D8%A9-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D9%86%D9%8A%D9%84.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block">
+                  <h1>Aswan</h1>
+                  <p>The Land of Beauty </p>
+                  <button class="btn btn-primary btn-lg"> visit us </button>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://www.urtrips.com/wp-content/uploads/2019/08/Diving-in-sharm-el-sheikh-3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption  d-md-block">
+                  <h1>Sharm El Sheikh</h1>
+                  <p> is a popular tourist destination on the Red Sea coast of Egypt</p>
+                  <button class="btn btn-primary btn-lg"> visit us </button>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev btn-lg" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <i class="fa-solid fa-angles-left text-primary"></i>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next btn-lg " type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <i class="fa-solid fa-angles-right text-primary "></i>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+         
+<!------------------------------------------------------------------------>
+<div class="container  mt-5 card1  " style="opacity:0.9;background-color:rgb(235, 244, 246) ; " >
+  <h5 class="cc pt-3">F-COMPANY</h5>
+  <p> Do not wait long, hurry up and contact us to have your magical trip</p>
+  <button type="button" class="btn btn-primary btn-md mb-4">Learn more</button>
+</div>
+<!----------------------------------------------------------->
+<div class="container-fluid   "style="background-color:rgb(55, 183, 195);" >
+<h2 class="mt-3 pt-3 pb-3 text-center text-white">popular destination in our company</h2>
+</div>
+
+
+<div id="accordion">
+
+  <div class="card1"style="background-color:rgb(235, 244, 246);" >
+    <div class="card-header">
+      <a class="btn END" data-bs-toggle="collapse" href="#collapseOne">
+     LUXOR
+      </a>
+    </div>
+    <div id="collapseOne" class="collapse " data-bs-parent="#accordion">
+      <div class="card-body" >
+        Luxor is home to the greatest temples in the ancient world
+
+      </div>
+    </div>
+  </div>
+  <div class="card1"style="background-color:rgb(235, 244, 246);" >
+    <div class="card-header">
+      <a class="collapsed btn END" data-bs-toggle="collapse" href="#collapseTwo">
+        ALex
+      </a>
+    </div>
+    <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+      <div class="card-body">
+        contains many ancient tourist places such as Montazah Palace and Qaitbay Citadel, in addition to the newly established Library of Alexandria to be one of the most prominent cultural tourist attractions in the modern era
+      </div>
+    </div>
+  </div>
+
+  <div class="card1" style="background-color:rgb(235, 244, 246);">
+    <div class="card-header">
+      <a class="collapsed btn END" data-bs-toggle="collapse" href="#collapseThree">
+       Sharm El Shekh
+      </a>
+    </div>
+    <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+      <div class="card-body">
+        Sharm El Sheikh is home to a number of resorts and hotels, catering to all budgets
+      </div>
+    </div>
+  </div>
+
+</div>
+
+      <!-------------------------------------------------------------------------->
+      <div class="container-fluid " style="background-color:rgb(55, 183, 195);">
+        <h2 class="mt-4 pt-3 pb-3 text-center">Translate From Arabic To English</h2>
+        </div >
+        <div class="container-fluid "style="background-color:rgb(55, 183, 195);" >
+      
+        <h5>Write and Translate <code class="text-danger">
+          press here
+        </code></h5>
+        <!-- Button trigger modal -->
+        <textarea class="form-control mb-1 pb-1  " rows="3" placeholder="write here" id="comment" name="text"></textarea>
+        <button type="button" class="btn btn-light mt-1 mb-2" data-bs-toggle="modal" data-bs-target="#exampleModal"  >
+          copy
+                      </button>
+                     
+    
+          </div>
+
+
+        
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title cc" id="exampleModalLabel">F-COMPANY</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        The text has been copied
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+       
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid " style="background-color:rgb(55, 183, 195);">
+  <h2 class="mt-4 pt-3 pb-3 text-center">Translate From Arabic To French</h2>
+  </div >
+  <div class="container-fluid "style="background-color:rgb(55, 183, 195);" >
+
+  <h5>Write and Translate <code class="text-danger">
+    press here
+  </code></h5>
+  <!-- Button trigger modal -->
+  <textarea class="form-control mb-1 pb-1  " rows="3" placeholder="write here" id="comment" name="text"></textarea>
+  <button type="button" class="btn btn-light mt-1 mb-2" data-bs-toggle="modal" data-bs-target="#exampleModal"  >
+    copy
+                </button>
+               
+
+    </div>
+
+    
+  
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+  <h5 class="modal-title cc" id="exampleModalLabel">F-COMPANY</h5>
+  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+  The text has been copied
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+ 
+  
+</div>
+</div>
+</div>
+</div>
+
+<div class="container-fluid " style="background-color:rgb(55, 183, 195);">
+  <h2 class="mt-4 pt-3 pb-3 text-center">Translate From Arabic To Deutsch</h2>
+  </div >
+  <div class="container-fluid "style="background-color:rgb(55, 183, 195);" >
+
+  <h5>Write and Translate <code class="text-danger">
+    press here
+  </code></h5>
+  <!-- Button trigger modal -->
+  <textarea class="form-control mb-1 pb-1  " rows="3" placeholder="write here" id="comment" name="text"></textarea>
+  <button type="button" class="btn btn-light mt-1 mb-2" data-bs-toggle="modal" data-bs-target="#exampleModal"  >
+    copy
+                </button>
+               
+
+    </div>
+
+    
+  
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+  <h5 class="modal-title cc" id="exampleModalLabel">F-COMPANY</h5>
+  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+  The text has been copied
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+ 
+  
+</div>
+</div>
+</div>
+</div>
+        <!-------------------------2---------------------------------------------------->
+       <!-------------------------------------------------------------------------->
+     
+<!-- Modal -->
+
+        <!-------------------------2---------------------------------------------------->
+        <div class="container-fluid photo mt-5 mb-5">
+          
+        </div>
+        <!-------------------------2---------------------------------------------------->
+        <div class="container-fluid  "style="background-color:rgb(55, 183, 195);">
+          <h2 class="mt-3 pt-3 pb-3 text-center">popular destination in Egypt</h2>
+          </div >
+        <div class="car container-fluid ">
+          <div class="row  mt-4 mb-2 ms-5">
+            <div class="p-1 col-12 col-sm-6 col-lg-4">
+              <div class="card" style="width:350px">
+                <img class="card-img-top" src="https://travelerlibrary.com/wp-content/uploads/Tourism-in-Cairo-and-the-most-important-cities-and-attractions-in-it.jpg" alt="Card image"
+                >
+                <div class="card-body text-center mt-3">
+                  <h4 class="card-title ">Cairo</h4>
+                  <p class="card-text">The capital of Egypt.</p>
+                  <a href="#" class="btn btn-primary">learn more</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="p-1 col-12 col-sm-6 col-lg-4">
+              <div class="card" style="width:350px">
+                <img class="card-img-top" src="https://yallaasafr.com/wp-content/uploads/2022/11/admin-ajax-1-e1670252920457-1024x653.jpeg.webp" alt="Card image">
+                <div class="card-body text-center mt-3">
+                  <h4 class="card-title">Luxor</h4>
+                  <p class="card-text"> Luxor is home to the greatest temples in the ancient world</p>
+                  <a href="#" class="btn btn-primary">learn more</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="p-1 col-12 col-sm-6 col-lg-4">
+              <div class="card" style="width:350px">
+                <img class="card-img-top" src="https://img.youm7.com/ArticleImgs/2020/6/19/126182-%D8%B4%D8%A7%D8%B7%D9%89%D8%A1-%D8%A8%D9%85%D8%AF%D9%8A%D9%86%D8%A9-%D8%AF%D9%87%D8%A8.jpg" alt="Card image">
+                <div class="card-body text-center mt-3">
+                  <h4 class="card-title">Dahab</h4>
+                  <p class="card-text">the name of the city was taken from its golden sand beaches.</p>
+                  <a href="#" class="btn btn-primary">learn more</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+
+
+          <div class="row  mt-4 mb-2 ms-5">
+            <div class=" p-1 col-12 col-sm-6 col-lg-4">
+              <div class="card" style="width:350px">
+                <img class="card-img-top" src="https://img.freepik.com/free-photo/view-traditional-fishing-boats-luzzu-marsaxlokk-harbor-malta_181624-39838.jpg?t=st=1722099332~exp=1722102932~hmac=cb3bae15e6b0e113d05c14dc7f0600c0a611e090390a285b45dec3bba05fa191&w=1060" alt="Card image" >
+                <div class="card-body text-center">
+                  <h4 class="card-title">Aswan</h4>
+                  <p class="card-text">one of the oldest continuously inhabited cities in the world. Located in the southern part of Egypt</p>
+                  <a href="#" class="btn btn-primary">learn more</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="p-1 col-12 col-sm-6 col-lg-4">
+              <div class="card" style="width:350px">
+                <img class="card-img-top" src="https://www.urtrips.com/wp-content/uploads/2019/08/Diving-in-sharm-el-sheikh-3.jpg" alt="Card image">
+                <div class="card-body text-center">
+                  <h4 class="card-title">Sharm El Shekh</h4>
+                  <p class="card-text">Sharm El Sheikh is known for its beautiful beaches, clear waters, and abundant coral reefs.</p>
+                  <a href="#" class="btn btn-primary">learn more</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="p-1 col-12 col-sm-6 col-lg-4">
+              <div class="card" style="width:350px">
+                <img class="card-img-top" src="https://img.freepik.com/free-photo/fishing-boats-water-sea-with-beautiful-clear-blue-sky_181624-1795.jpg?t=st=1722099295~exp=1722102895~hmac=4c6f9c48703d99bc7d37d4273ea9eebc3af5598786807ab33437a65f556664ca&w=740" alt="Card image" style="height: 200px ;">
+                <div class="card-body text-center">
+                  <h4 class="card-title">Alex</h4>
+                  <p class="card-text">Alexandria is a popular tourist destination, known for its beaches, historical sites, and vibrant culture</p>
+                  <a href="#" class="btn btn-primary">learn more</a>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+
+          </div>
+
+        </div>
+        <!--------------------------------------------------------------------------------------->
+        <div class="container-fluid photo mt-5 mb-5">
+        </div>
+        <div class="container-fluid  " style="background-color:rgb(55, 183, 195);">
+          <h2 class="mt-3 pt-3 pb-3 text-center">The most booked trips</h2>
+          </div >
+          <div class="container-fluid">
+            <div class="row  mt-4 mb-2 ms-5">
+              <div class="p-1 col-12 col-sm-6 col-lg-4 ">
+                <div class="eng4 eng">
+                  <div class="overr">
+                <h1 class="ms-2 mt-4 best">#1 Dahab </h1>
+                <i class="fa-solid fa-clock ms-3 best "></i>
+                <small class="best">for 5 days </small>
+                <br>
+                <br>
+                <br>
+                <img src="https://img.freepik.com/free-photo/restaurant-complex-seashore-rocks_169016-12915.jpg?t=st=1722104112~exp=1722107712~hmac=763d01600af55c73db211acc467defc3d3b0868ad1b8afc4622d2b1a72d47330&" alt=""
+                class="rounded-pill border ms-3 ph1"style="width:200px;  " >
+                <p class="mt-3 ms-2 best ">Dahab is the perfect destination for water-loving people, it is a place where there is an abundance of swimming, snorkelling, and diving varieties.</p>
+              </div>
+                </div>
+  
+              </div>
+              <div class="p-1 col-12 col-sm-6 col-lg-4">
+                <div class="eng2 eng">
+                  <div class="overr">
+                <h3 class="ms-2 mt-4 best">#2 Hurghada</h3>
+                <i class="fa-solid fa-clock ms-3"></i>
+                <small class="best">for a week</small>
+                <br>
+                <br>
+                <br>
+                <img src="https://img.freepik.com/free-photo/sandy-beach-calm-sea_657883-138.jpg?t=st=1722106357~exp=1722109957~hmac=9369a68b44f52d443dd17e22f05a229d3910dcc04023f20ea4c2dd4f8d3c68ac&w=900" alt=""
+                class="rounded-pill border ms-3"style="width:200px;" >
+                <p class="mt-3 ms-2 best">Hurghada is one of the important Egyptian cities located on the coast of the Red Sea from the southwestern section, and is considered the administrative capital of the Red Sea</p>
+              </div>
+                </div>
+              </div>
+  
+              <div class="p-1 col-12 col-sm-6 col-lg-4">
+                <div class="eng3 eng">
+                  <div class="overr">
+                <h3 class="ms-3best mt-4 ms-3  ">#3 Aswan</h3>
+                <i class="fa-solid fa-clock ms-3 best "></i>
+                <small class="best">for 2 weeks</small>
+                <br>
+                <br>
+                <br>
+                <img src="https://qph.cf2.quoracdn.net/main-qimg-eeeab087fc9f54d6252a3b1722222197" alt=""
+                class="rounded-pill ms-3 border"style="width:200px;" >
+                <p class="mt-3 ms-2 best">Aswan is a city that is full of amazing attractions that are worth visiting. One of the top attractions in Aswan is the Abu Simbel Temples</p>
+              </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+<!----------------------------------------------------------------------------------------------------------
+
+ 
+
+---------------------------------->
+<div class="container END " style="background-color:rgb(235, 244, 246);">
+  <h2 class="mt-5 pt-3 pb-3 mb-5 text-center" STYLE="font-size: 60PX;">Visit us</h2>
+  </div >
+
+  <div class="row text-center m-2 ms-5 ">
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 ms-5 bpic ">
+      <h2>FOLLOW</h2>
+      <div class="pic bg-dark">
+
+        <i class="fa-brands fa-square-facebook icon"></i>
+
+    </div>
+    <div class="pt-2">
+      <a href="" class="link">Go To Link</a>
+    </div> 
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 bpic ms-5   ">
+      <h2>FOLLOW</h2>
+      <div class="pic bg-dark">
+
+        <i class="fa-brands fa-square-twitter icon"></i>
+
+    </div>
+    <div class="pt-2">
+      <a href="" class="link">Go To Link</a>
+    </div> 
+    </div>
+    
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 bpic ms-5 ">
+      <h2>FOLLOW</h2>
+      <div class="pic bg-dark">
+
+        <i class="fa-brands fa-square-instagram icon"></i>
+
+    </div>
+    <div class="pt-2">
+      <a href="" class="link">Go To Link</a>
+    </div> 
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 bpic ms-5 ">
+      <h2>FOLLOW</h2>
+      <div class="pic bg-dark">
+
+        <i class="fa-brands fa-linkedin icon"></i>
+
+    </div>
+    <div class="pt-2">
+      <a href="" class="link">Go To Link</a>
+    </div> 
+    </div>
+  </div>
+
+
+<div class="container-fluid  mt-4" style="background-color:rgb(55, 183, 195);">
+  <div class="row">
+    <div class="col-12 col-sm-6 col-lg-4 mt-3">
+      <hr>
+      <img src="https://img.freepik.com/premium-vector/hospitality-tourism-logo-concept_958800-81967.jpg?w=740" alt="Avatar Logo" style="width: 60px; height:60px ;" class="rounded-pill ms-5 llogo">
+     
+      <a class="navbar-brand "  href="#" >&nbsp; F-COMPANY </a>
+      <hr>
+      <div class="row ms-5 mb-2">
+       <p>Tel:000-000-000</p>
+       <p>Address:Egypt</p>
+       <p>Fax:000-000-000</p>
+       
+      </div>
+      <hr>
+   
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4 mt-3">
+        <hr>
+        <img src="https://img.freepik.com/premium-vector/hospitality-tourism-logo-concept_958800-81967.jpg?w=740" alt="Avatar Logo" style="width: 60px; height:60px ;" class="rounded-pill ms-5 llogo">
+       
+        <span style="font-size: 20px;">important link</span>
+        <hr>
+        <div class="row ms-5 mb-5">
+         <a class="mt-2 href="">Visit us </a>
+         <a href="">take a look</a>
+         <a class="mt-2 href="">your health is more important</a>
+
+         
+        </div>
+        <hr>
+     
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4 mt-3">
+          <hr>
+          <img src="https://img.freepik.com/premium-vector/hospitality-tourism-logo-concept_958800-81967.jpg?w=740" alt="Avatar Logo" style="width: 60px; height:60px ;" class="rounded-pill ms-5 llogo ">
+         
+          <span style="font-size: 20px;">Vision</span>
+          <hr>
+          <div class="row ms-5 mb-5">
+           <a class="mb-2">Serveices for all</a>
+           
+           <a href="">Provide best serveices</a>
+           
+           <a class="mt-2 "href="">you will be better than before</a>
+           
+          </div>
+          <hr>
+         
+          </div>
+         
+    
+
+  <div class="ROW col-12 END text-center">
+   <p>COPYRIGHT &COPY; FATMA HASSAN , COMPANY</p>
+   <hr>
+    </div >
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="ja/all.min.js"></script>
+     
+    </body>
+  </html>
+    
+  
